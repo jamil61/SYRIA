@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: url(../images/lights-after-small.png) center / cover no-repeat;
+    height: 1vh;
 }
 
 img {
@@ -31,7 +33,7 @@ section {
     left: 80rem;
     top: 2em;
     background: black;
-    height: 40rem;
+    /* height: 40rem; */
     width: 0rem;
 }
 
@@ -190,7 +192,7 @@ li {
     display: inline;
 }
 
-li a {
+ a {
     text-decoration: none;
     color: blanchedalmond;
     padding: 1em;
@@ -199,9 +201,9 @@ li a {
     transition: 1s;
 }
 
-li a:hover {
+ a:hover {
     border-bottom: 1px solid wheat;
-
+    transition: 1s;
 }
 
 #openBtn {
@@ -213,6 +215,8 @@ li a:hover {
     font-size: 3.5rem;
     border: 0;
     cursor: pointer;
+    opacity: 0.6;
+    border-radius: 0.5em;
 }
 #globe{
     width: 5.5rem;
