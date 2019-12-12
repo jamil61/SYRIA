@@ -58,6 +58,9 @@
         position: relative;
         top: 2rem;
         left: -0.4rem;
+        background: black;
+        color: white;
+        border-radius: 0.2em;
 
     }
 
@@ -94,7 +97,7 @@ the close button */
         padding: 16px;
         height: 25rem;
         font-family: 'Roboto', sans-serif;
-
+     
     }
 
     span.psw {
@@ -115,6 +118,7 @@ the close button */
         background-color: rgb(0, 0, 0);
         background-color: rgba(0, 0, 0, 0.4);
         padding-top: 60px;
+       
     }
 
     .modal-content {
@@ -122,6 +126,7 @@ the close button */
         margin: 5% auto 15% auto;
         border: 1px solid #888;
         width: 80%;
+        border-radius: 0.5em;
     }
 
     /* The Close Button (x) */
