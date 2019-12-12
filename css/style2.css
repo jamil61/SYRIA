@@ -1,0 +1,122 @@
+body {
+    background: black;
+
+}
+
+#openBtn {
+    position: relative;
+    left: 15rem;
+    top: 20rem;
+    background: black;
+    color: wheat;
+    font-size: 3.5rem;
+    border: 0;
+    cursor: pointer;
+}
+
+
+section {
+    position: relative;
+    left: -80rem;
+    color: blanchedalmond;
+    top: 10rem;
+    background: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionOpen {
+    transform: translateX(80rem);
+    transition: 0.7s;
+}
+
+
+
+
+
+nav {
+    position: fixed;
+    top: -0.3em;
+    left: 20em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    transition: 1s;
+}
+
+li a:hover {
+    border-bottom: 1px solid wheat;
+
+}
+
+
+
+
+#span1 {
+    position: relative;
+    left: -80rem;
+}
+
+.span1Open {
+    transform: translateX(80rem);
+    transition: 0.7s;
+    transition-delay: 0.2s;
+}
+
+#span2 {
+    position: relative;
+    top: -80rem;
+}
+
+.span2Open {
+    transform: translateY(80rem);
+    transition: 0.7s;
+    transition-delay: 0.4s;
+
+}
+
+#span3 {
+    position: relative;
+    left: -80rem;
+}
+
+.span3Open {
+    transform: translateX(80rem);
+    transition: 0.7s;
+    transition-delay: 0.6s;
+
+}
+
+
+#span4 {
+    position: relative;
+    top: -80rem;
+}
+
+.span4Open {
+    transform: translateY(80rem);
+    transition: 0.7s;
+    transition-delay: 0.8s;
+
+}
+
+#globe {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    left: 10rem;
+    top: 20rem;
+    border-radius: 50%;
+}
