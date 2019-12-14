@@ -133,8 +133,10 @@ li a:hover {
 
     #openBtn {
         position: relative;
-        left: 0.3em;
+        left: 6em;
         top: 8em;
+        height: 5em;
+      width: 7rem;
         background: black;
         color: wheat;
         font-size: 1rem;
@@ -145,11 +147,11 @@ li a:hover {
     }
 
     #globe {
-        width: 1rem;
-        height: 1rem;
+        width: 2rem;
+        height: 2rem;
         position: relative;
-        left: 0.4em;
-        top: 8.1em;
+        left: 6em;
+        top: 7em;
         border-radius: 50%;
         opacity: 0.6;
     }
@@ -170,9 +172,10 @@ li a:hover {
     }
 
     nav {
+        margin-top: 0;
         position: relative;
-        top: 1.9em;
-        left: -4em;
+        top: -5em;
+        left: -3em;
         font-size: 9px;
     }
 
@@ -189,7 +192,7 @@ li a:hover {
         position: relative;
         left: -20rem;
         color: blanchedalmond;
-        top: 3em;
+        top: 0.3em;
         background: black;
         font-family: 'Roboto', sans-serif;
         padding-left: 0.3em;
@@ -203,50 +206,5 @@ li a:hover {
         transition: 0.7s;
     }
 
-    #span1 {
-        position: relative;
-        left: -80rem;
-    }
 
-    .span1Open {
-        transform: translateX(80rem);
-        transition: 0.7s;
-        transition-delay: 0.2s;
-    }
-
-    #span2 {
-        position: relative;
-        top: -80rem;
-    }
-
-    .span2Open {
-        transform: translateY(80rem);
-        transition: 0.7s;
-        transition-delay: 0.4s;
-
-    }
-
-    #span3 {
-        position: relative;
-        left: -80rem;
-    }
-
-    .span3Open {
-        transform: translateX(80rem);
-        transition: 0.7s;
-        transition-delay: 0.6s;
-
-    }
-
-
-    #span4 {
-        position: relative;
-        top: -80rem;
-    }
-
-    .span4Open {
-        transform: translateY(80rem);
-        transition: 0.7s;
-        transition-delay: 0.8s;
-    }
 }

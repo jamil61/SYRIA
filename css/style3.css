@@ -180,23 +180,11 @@ the close button */
         }
     }
 
-    /* Change styles for span and cancel
-button on extra small screens */
-    @media screen and(max-width: 300px) {
-        span.psw {
-            display: block;
-            float: none;
-        }
-
-        .cancelbtn {
-            width: 100%;
-        }
-    }
 
     @media screen and (min-width:40px) and (max-width: 480px) {
 
         body {
-            background: #000000;
+            background: #000;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -232,5 +220,36 @@ button on extra small screens */
             display: inline;
     
         }
+        span.psw {
+            display: block;
+            float: none;
+        }
+
+        .cancelbtn {
+            width: 100%;
+        }
+   
+        #load {
+
+            position: relative;
+            left: 3rem;
+            top: 4rem;
+            background: black;
+            color: wheat;
+            font-size: 3.5rem;
+            border: 0;
+            cursor: pointer;
+            opacity: 0.6;
     
+        }
+        #globe {
+            width: 2rem;
+            height: 2rem;
+            position: fixed;
+            left: 2rem;
+            top: 9rem;
+            border-radius: 50%;
+        }
     }
+    
+   
