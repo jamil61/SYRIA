@@ -11,6 +11,7 @@
 </head>
 
 <body>
+   
     <img id="globe" src="images/globe.gif" alt="globe">
     <button id="openBtn">Load the Page</button>
     <!-- <button id="clsBtn">&times;</button> -->
@@ -54,6 +55,8 @@
             var pic6 = document.getElementById('pic6');
             var pic7 = document.getElementById('pic7');
             var pic8 = document.getElementById('pic8');
+            var color1 = document.getElementById('color1');
+
 
             pic1.classList = "pic1Open";
             pic2.classList = "pic2Open";
@@ -64,6 +67,7 @@
             pic7.classList = "pic7Open";
             pic8.classList = "pic8Open";
             section.classList = "sectionOpen";
+          
         }
         const clsBtn = document.getElementById('clsBtn');
         clsBtn.addEventListener('click', close);
