@@ -235,7 +235,7 @@ a:hover {
         box-sizing: border-box;
     }
     img {
-        width: 10rem;
+        width: 13rem;
         height: 7rem;
         margin-left: 20%;
         border-radius: 0.5em;
@@ -266,7 +266,7 @@ a:hover {
         position: relative;
         left: -31rem;
         top: 1rem;
-        margin-bottom: 15%;
+        margin-bottom: 3rem;
     }
 
 
@@ -277,7 +277,7 @@ a:hover {
         position: relative;
         left: -31rem;
         top: 2rem;
-        margin-bottom: 15%;
+        margin-bottom: 3rem;
     }
 
     .pic1Open {

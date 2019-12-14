@@ -150,8 +150,8 @@ li a:hover {
         width: 2rem;
         height: 2rem;
         position: relative;
-        left: 6em;
-        top: 7em;
+        left: 6rem;
+        top: 7rem;
         border-radius: 50%;
         opacity: 0.6;
     }
@@ -192,7 +192,7 @@ li a:hover {
         position: relative;
         left: -20rem;
         color: blanchedalmond;
-        top: 0.3em;
+        top: 0.3rem;
         background: black;
         font-family: 'Roboto', sans-serif;
         padding-left: 0.3em;
